@@ -1,0 +1,66 @@
+/***************************
+            RESET
+***************************/
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    margin: 0;
+    display: flex;
+    place-items: center;
+    min-width: 320px;
+    min-height: 100vh;
+    background-color: var(--body-color);
+    color: var(--text-color);
+}
+
+body,
+button,
+input,
+textarea {
+    font-family: var(--body-font);
+    font-size: var(--normal-font-size);
+}
+
+button{
+    cursor: pointer;
+    border: none;
+    outline: none;
+}
+
+ul {
+    margin: 0;
+    padding: 0px;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+h1,
+h2,
+h3,
+h4,
+ul,
+blockquote,
+dd,
+p {
+    margin: 0px;
+}
+
+h1,
+h2,
+h3{
+    color: var(--title-color);
+    font-weight: var(--font-semibold);
+}
