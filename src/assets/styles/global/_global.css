@@ -4,6 +4,9 @@
 
 :root {
 
+    /* Header Height */
+    --header-height: 3rem;
+
     /* Margin Bottom */
 
     --mb-0-25: 0.25rem;
@@ -23,4 +26,31 @@
     --z-tooltip: 10;
     --z-fixed: 100;
     --z-modal: 1000;
+}
+
+/* BREAKPOINTS */
+
+/* For large devices */
+@media screen and (max-width: 992px) {
+    .container{
+        margin-left: var(--mb-1-5);
+        margin-right: var(--mb-1-5);
+    }
+}
+
+/* For medium devices */
+@media screen and (max-width: 768px) {
+
+}
+
+@media screen and (max-width: 576px) {
+
+}
+
+/* For small devices */
+@media screen and (max-width: 350px) {
+    .container{
+        margin-left: var(--mb-1);
+        margin-right: var(--mb-1);
+    }
 }
