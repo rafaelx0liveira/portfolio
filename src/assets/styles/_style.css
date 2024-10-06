@@ -1,6 +1,8 @@
+@import "./reset/_reset.css";
 @import "./colors/_colors.css";
 @import "./components/_components.css";
-@import "./reset/_reset.css";
 @import "./typography/_typography.css";
-@import "./global/_header.css";
 @import "./global/_global.css";
+
+@import "../../components/organisms/header/_header.css";
+@import "../../components/organisms/home/_home.css";

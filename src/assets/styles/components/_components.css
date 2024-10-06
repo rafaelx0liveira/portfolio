@@ -41,8 +41,11 @@
     background-color: var(--title-color);
     color: var(--container-color);
     padding: 1.25rem 2rem;
+    border: none;
     border-radius: 1rem;
     font-weight: var(--font-medium);
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
 }
 
 .button:hover{
@@ -55,5 +58,13 @@
 
 .button-flex{
     display: inline-flex;
+    align-items: center;
+    gap: .5rem;
+    white-space: nowrap; 
+}
+
+.button-flex svg{
+    width: 1.5rem;
+    height: 1.5rem;
     align-items: center;
 }
