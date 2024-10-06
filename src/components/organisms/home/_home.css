@@ -52,7 +52,6 @@
 }
 
 .home-description{
-    min-width: 25rem;
     margin-bottom: var(--mb-3);
 }
 
@@ -177,5 +176,5 @@
         width: 11.25rem;
         height: 11.25rem;
     }    
-    
+
 }
