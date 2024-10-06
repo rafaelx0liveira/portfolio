@@ -1,5 +1,3 @@
-import React from 'react'
-
 const FrontEnd = () => {
   return (
     <div className="skills-content">

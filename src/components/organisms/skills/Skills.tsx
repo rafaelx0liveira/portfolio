@@ -1,5 +1,3 @@
-import React from 'react'
-
 import FrontEnd from '../../molecules/frontend/FrontEnd'
 import BackEnd from '../../molecules/backend/BackEnd'
 

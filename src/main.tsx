@@ -7,6 +7,7 @@ import Header from './components/organisms/header/Header'
 import Home from './components/organisms/home/Home'
 import About  from './components/organisms/about/About'
 import Skills from './components/organisms/skills/Skills'
+import Services from './components/organisms/services/Services'
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
@@ -16,6 +17,7 @@ createRoot(document.getElementById('root')!).render(
       <Home />
       <About />
       <Skills />
+      <Services />
     </main>
   </StrictMode>,
 )
