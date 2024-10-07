@@ -17,7 +17,7 @@ const Services = () => {
 
                 <div className="services-content">
                     <div>
-                        <i className="uil uil-web-grid services-icon"></i>
+                        <i className="uil uil-arrow services-icon"></i>
                         <h3 className="services-title">
                             Software<br/> Development 
                         </h3>
@@ -83,7 +83,7 @@ const Services = () => {
 
                 <div className="services-content">
                     <div>
-                        <i className="uil uil-arrow services-icon"></i>
+                        <i className="uil uil-search services-icon"></i>
                         <h3 className="services-title">
                             Consulting &  <br/> Code Review
                         </h3>
@@ -152,7 +152,7 @@ const Services = () => {
 
                 <div className="services-content">
                     <div>
-                        <i className="uil uil-edit services-icon"></i>
+                        <i className="uil uil-server services-icon"></i>
                         <h3 className="services-title">
                             Backend <br/> Development
                         </h3>
