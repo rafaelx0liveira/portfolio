@@ -8,4 +8,5 @@
 @import "../../components/organisms/home/_home.css";
 @import "../../components/organisms/about/_about.css";
 @import "../../components/organisms/skills/_skills.css";
-@import '../../components/organisms/services/_services.css';
+@import "../../components/organisms/services/_services.css";
+@import "../../components/organisms/qualification/_qualification.css";

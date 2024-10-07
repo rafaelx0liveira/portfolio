@@ -8,6 +8,7 @@ import Home from './components/organisms/home/Home'
 import About  from './components/organisms/about/About'
 import Skills from './components/organisms/skills/Skills'
 import Services from './components/organisms/services/Services'
+import Qualification from './components/organisms/qualification/Qualification'
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
@@ -18,6 +19,7 @@ createRoot(document.getElementById('root')!).render(
       <About />
       <Skills />
       <Services />
+      <Qualification />
     </main>
   </StrictMode>,
 )
