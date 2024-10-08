@@ -1,5 +1,5 @@
 import Social from '../../molecules/social_media/Social'
-import Data from '../../molecules/data/Data'
+import HomeInfo from '../../molecules/home_info/HomeInfo'
 import ScrollDown from '../../molecules/scroll_down/ScrollDown'
 
 const Home = () => {
@@ -13,7 +13,7 @@ const Home = () => {
 
                     </div>
 
-                    <Data />
+                    <HomeInfo />
                 </div>
 
                 <ScrollDown />

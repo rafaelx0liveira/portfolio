@@ -1,0 +1,45 @@
+/****************************
+        TESTIMONIALS    
+****************************/
+.testimonial-container{
+    width: 46.875rem;
+}
+
+.testimonial-card{
+    background-color: var(--container-color);
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 1.5rem 2rem;
+    border-radius: 1.5rem;
+    margin-bottom: var(--mb-3);
+}
+
+.testimonial-img{
+    object-fit: cover;
+    width: 4.75rem;
+    height: 4.75rem;
+    border-radius: 3rem;
+    margin-bottom: var(--mb-1);
+}
+
+.testimonial-name{
+    font-size: var(--normal-font-size);
+    font-weight: var(--font-medium);
+    margin-bottom: var(--mb-0-25);
+}
+
+.testimonial-description{
+    font-size: var(--small-font-size);
+}
+
+/* Swiper Class*/
+.swiper-pagination-bullet{
+    background-color: var(--text-color) !important;
+}
+
+.swiper-pagination-active{
+    background-color: var(--title-color) !important;
+}
+
+.swiper {
+    width: 600px;
+}
