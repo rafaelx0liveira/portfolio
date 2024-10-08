@@ -18,6 +18,7 @@ const Testimonials = () => {
                 spaceBetween={24}
                 pagination={{
                     clickable: true,
+                    dynamicBullets: true,
                 }}
                 breakpoints={{
                     576: {

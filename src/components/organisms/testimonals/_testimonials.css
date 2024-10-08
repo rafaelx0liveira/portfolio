@@ -40,6 +40,17 @@
     background-color: var(--title-color) !important;
 }
 
-.swiper {
-    width: 600px;
+
+
+/* BREAKPOINTS */
+
+/* For large devices */
+@media screen and (max-width: 992px) {
+    .testimonial-container{
+        width: initial;
+    }
+
+    .testimonial-card{
+        padding: 1.25rem 1.5rem;
+    }
 }
