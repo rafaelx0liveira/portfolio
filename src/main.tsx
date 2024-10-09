@@ -13,6 +13,8 @@ import Testimonials from './components/organisms/testimonals/Testimonials'
 import Contact from './components/organisms/contact/Contact'
 import Footer from './components/organisms/footer/Footer'
 
+import ScrollUp from './components/atoms/scroll_up/ScrollUp'
+
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
     <Header />
@@ -25,8 +27,10 @@ createRoot(document.getElementById('root')!).render(
       <Qualification />
       <Testimonials />
       <Contact />
-      <Footer />
     </main>
+    
+    <Footer />
+    <ScrollUp />
 
   </StrictMode>,
 )

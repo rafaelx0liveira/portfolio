@@ -13,3 +13,5 @@
 @import "../../components/organisms/testimonals/_testimonials.css";
 @import "../../components/organisms/contact/_contact.css";
 @import "../../components//organisms/footer/_footer.css";
+
+@import "../../components/atoms/scroll_up/_scrollUp.css";
