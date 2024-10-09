@@ -72,10 +72,19 @@
     width: 22.5rem;
 }
 
+.contact-form input:focus,
+.contact-form textarea:focus{
+    border-color: var(--title-color);
+}
+
 .contact-form-div{
     position: relative;
     margin-bottom: var(--mb-3);
     height: 2rem;
+}
+
+.focused {
+    color: var(--title-color);       
 }
 
 .contact-form-input{

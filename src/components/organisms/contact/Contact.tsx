@@ -1,9 +1,12 @@
-import { useRef, FormEvent } from 'react';
+import { useRef, FormEvent, useState } from 'react';
 import {toast, ToastContainer} from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import emailjs from '@emailjs/browser';
 
 const Contact = () => {
+    const [isNameFocused, setIsNameFocused] = useState(false);
+    const [isEmailFocused, setIsEmailFocused] = useState(false);
+    const [isProjectFocused, setIsProjectFocused] = useState(false);
 
     const form = useRef<HTMLFormElement | null>(null);
 
@@ -83,31 +86,51 @@ const Contact = () => {
                         ref={form} 
                         onSubmit={sendEmail}>
                         <div className="contact-form-div">
-                            <label className="contact-form-tag">Name</label>
+                            <label 
+                                className={`contact-form-tag ${isNameFocused ? 'focused' : ' '}`}
+                                htmlFor='name'
+                                >Name</label>
                             <input 
                                 type="text" 
                                 name="name"
+                                id='name'
                                 className="contact-form-input" 
-                                placeholder="Insert your name" />
+                                placeholder="Insert your name" 
+                                onFocus={() => setIsNameFocused(true)}
+                                onBlur={() => setIsNameFocused(false)}
+                                />
                         </div>
 
                         <div className="contact-form-div">
-                            <label className="contact-form-tag">Mail</label>
+                            <label 
+                                className={`contact-form-tag ${isEmailFocused ? 'focused' : ' '}`}
+                                htmlFor='email'
+                                >Mail</label>
                             <input 
                                 type="email" 
                                 name="email"
+                                id='email'
                                 className="contact-form-input" 
-                                placeholder="Insert your email" />
+                                placeholder="Insert your email" 
+                                onFocus={() => setIsEmailFocused(true)}
+                                onBlur={() => setIsEmailFocused(false)}
+                                />
                         </div>
 
                         <div className="contact-form-div contact-form-area">
-                            <label className="contact-form-tag">Opportunity</label>
+                            <label 
+                                className={`contact-form-tag ${isProjectFocused ? 'focused' : ' '}`}
+                                htmlFor='project'
+                                >Opportunity</label>
                             <textarea 
                                 name="project"
+                                id='project'
                                 cols={30} 
                                 rows={10} 
                                 className="contact-form-input"
                                 placeholder="Describe how I can boost your business!"
+                                onFocus={() => setIsProjectFocused(true)}
+                                onBlur={() => setIsProjectFocused(false)}
                                 ></textarea>
                         </div>
 
