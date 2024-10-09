@@ -10,6 +10,7 @@ import Skills from './components/organisms/skills/Skills'
 import Services from './components/organisms/services/Services'
 import Qualification from './components/organisms/qualification/Qualification'
 import Testimonials from './components/organisms/testimonals/Testimonials'
+import Contact from './components/organisms/contact/Contact'
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
@@ -22,6 +23,7 @@ createRoot(document.getElementById('root')!).render(
       <Services />
       <Qualification />
       <Testimonials />
+      <Contact />
     </main>
 
   </StrictMode>,
