@@ -1,3 +1,4 @@
+import { Typewriter } from "react-simple-typewriter"
 
 const HomeInfo = () => {
     return (
@@ -7,7 +8,15 @@ const HomeInfo = () => {
             </h1>
 
             <h3 className="home-subtitle">
-                Backend Software Engineer
+            <Typewriter
+                    words={['Backend Software Engineer', 'Fullstack Developer', 'Problem Solver']}
+                    loop={true}
+                    cursor
+                    cursorStyle='|'
+                    typeSpeed={70}
+                    deleteSpeed={50}
+                    delaySpeed={1000}
+                />
             </h3>
 
             <p className="home-description">
