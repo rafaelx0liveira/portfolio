@@ -15,6 +15,7 @@ const Testimonials = () => {
             <Swiper className="testimonials-container"
                 loop={true}
                 grabCursor={true}
+                centeredSlides={true}
                 spaceBetween={24}
                 pagination={{
                     clickable: true,
@@ -28,6 +29,9 @@ const Testimonials = () => {
                         slidesPerView: 2,
                         spaceBetween: 48,
                     }
+                }}
+                style={{
+                    width: "70%",
                 }}
                 modules={[Pagination]}
                 >
