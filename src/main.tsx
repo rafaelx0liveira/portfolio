@@ -9,11 +9,12 @@ import About  from './components/organisms/about/About'
 import Skills from './components/organisms/skills/Skills'
 import Services from './components/organisms/services/Services'
 import Qualification from './components/organisms/qualification/Qualification'
-import Testimonials from './components/organisms/testimonals/Testimonials'
+// import Testimonials from './components/organisms/testimonals/Testimonials'
 import Contact from './components/organisms/contact/Contact'
 import Footer from './components/organisms/footer/Footer'
 
 import ScrollUp from './components/atoms/scroll_up/ScrollUp'
+import Projects  from './components/organisms/projects/Projects'
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
@@ -25,7 +26,8 @@ createRoot(document.getElementById('root')!).render(
       <Skills />
       <Services />
       <Qualification />
-      <Testimonials />
+      <Projects />
+      {/* <Testimonials /> */}
       <Contact />
     </main>
     

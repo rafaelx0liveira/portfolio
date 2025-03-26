@@ -5,7 +5,7 @@ export const TestimonialInfo = [
         id: 1,
         image: Image,
         title: "John Doe",
-        description: "John is a full-stack developer who enjoys solving complex problems with simple solutions."
+        description: "John is a full-stack developer who enjoys solving complex problems with simple solutions.John is a full-stack developer who enjoys solving complex problems with simple solutions.John is a full-stack developer who enjoys solving complex problems with simple solutions.John is a full-stack developer who enjoys solving complex problems with simple solutions.John is a full-stack developer who enjoys solving complex problems with simple solutions."
     },
     {
         id: 2,

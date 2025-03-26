@@ -1,5 +1,7 @@
 import FrontEnd from '../../molecules/frontend/FrontEnd'
 import BackEnd from '../../molecules/backend/BackEnd'
+import Architecture from '../../molecules/architecture/Architecture'
+import Tooling from '../../molecules/tooling/Tooling'
 
 const Skills = () => {
   return (
@@ -10,6 +12,8 @@ const Skills = () => {
         <div className="skills-container container grid">
             <FrontEnd />
             <BackEnd />
+            <Architecture />
+            <Tooling />
         </div>
     </section>
   )

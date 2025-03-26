@@ -15,7 +15,7 @@ const About = () => {
                     <Info />
 
                     <p className="about-description">
-                        "Software Engineering Analyst with experience in .NET Framework/Core, Angular, and React."
+                        "Software Engineering Analyst with hands-on experience in designing and implementing scalable distributed systems using <strong>.NET</strong>, <strong>Angular</strong>, and <strong>React</strong>. Skilled in microservices architecture, <strong>RabbitMQ-based messaging</strong>, <strong>API Gateway</strong>, <strong>CQRS pattern</strong>, structured logging with <strong>Serilog</strong> and <strong>Elasticsearch</strong>, and <strong>Docker</strong> containerization."
                     </p>
 
                     <a download="" href={CV} className="button button-flex">

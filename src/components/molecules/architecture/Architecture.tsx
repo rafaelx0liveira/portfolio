@@ -1,7 +1,7 @@
-const BackEnd = () => {
+const Architecture = () => {
     return (
-        <div className="skills-content">
-            <h3 className="skills-title">BackEnd Developer</h3>
+        <div className="skills-content arch">
+            <h3 className="skills-title">Architecture</h3>
 
             <div className="skills-box">
                 <div className="skills-group">
@@ -9,7 +9,16 @@ const BackEnd = () => {
                         <i className="bx bx-badge-check"></i>
 
                         <div>
-                            <h3 className="skills-name">.NET</h3>
+                            <h3 className="skills-name">Clean Architecture</h3>
+                            <span className="skills-level">Advanced</span>
+                        </div>
+                    </div>
+
+                    <div className="skills-data">
+                        <i className="bx bx-badge-check"></i>
+
+                        <div>
+                            <h3 className="skills-name">Microservices</h3>
                             <span className="skills-level">Intermediate</span>
                         </div>
                     </div>
@@ -18,17 +27,8 @@ const BackEnd = () => {
                         <i className="bx bx-badge-check"></i>
 
                         <div>
-                            <h3 className="skills-name">RabbitMQ</h3>
+                            <h3 className="skills-name">Domain Driven Design</h3>
                             <span className="skills-level">Intermediate</span>
-                        </div>
-                    </div>
-
-                    <div className="skills-data">
-                        <i className="bx bx-badge-check"></i>
-
-                        <div>
-                            <h3 className="skills-name">API Gateway</h3>
-                            <span className="skills-level">Basic</span>
                         </div>
                     </div>
                 </div>
@@ -38,7 +38,7 @@ const BackEnd = () => {
                         <i className="bx bx-badge-check"></i>
 
                         <div>
-                            <h3 className="skills-name">SQL Server</h3>
+                            <h3 className="skills-name">Event Driven Architecture</h3>
                             <span className="skills-level">Intermediate</span>
                         </div>
                     </div>
@@ -47,17 +47,17 @@ const BackEnd = () => {
                         <i className="bx bx-badge-check"></i>
 
                         <div>
-                            <h3 className="skills-name">Azure</h3>
+                            <h3 className="skills-name">CQRS Pattern</h3>
+                            <span className="skills-level">Advanced</span>
+                        </div>
+                    </div>
+
+                    <div className="skills-data">
+                        <i className="bx bx-badge-check"></i>
+
+                        <div>
+                            <h3 className="skills-name">Hexagonal Architecture</h3>
                             <span className="skills-level">Basic</span>
-                        </div>
-                    </div>
-
-                    <div className="skills-data">
-                        <i className="bx bx-badge-check"></i>
-
-                        <div>
-                            <h3 className="skills-name">Serilog</h3>
-                            <span className="skills-level">Intermediate</span>
                         </div>
                     </div>
                 </div>
@@ -66,4 +66,4 @@ const BackEnd = () => {
     )
 }
 
-export default BackEnd
+export default Architecture
